@@ -1,0 +1,26 @@
+/* This file controls the styling of your webpage.
+   It is linked in index.html using <link rel="stylesheet" href="style.css"> */
+
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the whole page */
+    background-color: grey;         /* Sets the background color */
+}
+
+#button1, #button2, #resetBtn {
+    padding: 10px;                  /* Adds space inside the button */
+    background-color: turquoise;    /* Button background color */
+    border: none;                   /* Removes default border */
+    cursor: pointer;                /* Changes cursor to pointer on hover */
+    margin: 5px;                    /* Adds space around buttons */
+    color: white;                   /* Button text color */
+}
+
+#header1 {
+    font-size: 24px;                /* Size of the header text */
+    color: black;                   /* Header text color */
+}
+
+#paragraph1 {
+    font-size: 18px;                /* Size of the paragraph text */
+    color: white;                   /* Paragraph text color */
+}
