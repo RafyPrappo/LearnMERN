@@ -1,0 +1,21 @@
+body {
+    background-color: grey;
+    font-family: Arial, sans-serif;
+}
+
+#addMessage {
+    color:chartreuse;
+    font-size: 24px;
+}
+
+#add {
+    background-color: rgb(255, 115, 0);
+    color: black;
+    border: whitesmoke;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#add:hover {
+    background-color: #2bf324;
+}

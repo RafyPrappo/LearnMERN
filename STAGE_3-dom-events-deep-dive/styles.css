@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center; /* this just puts everything in the center */
+}
+
+button { /* Did you notice? we did not write #button, this means, it will edit all buttons not the things with the id named button */
+  margin: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+button:hover {
+    background-color: aqua;
+}
