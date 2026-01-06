@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  display: flex;                 /* enable flexbox */
+  flex-direction: column;        /* stack children: h1 above card */
+  justify-content: center;       /* center vertically */
+  align-items: center;           /* center horizontally */
+  height: 100vh;                 /* full viewport height */
+}
+
+/* Card container */
+.card {
+  width: 300px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+
+/* Sections inside the card */
+.card-header {
+  background: #4CAF50;
+  color: white;
+  padding: 16px;
+  text-align: center;
+}
+
+.card-body {
+  padding: 16px;
+  background: #fafafa;
+}
+
+.card-footer {
+  background: #eee;
+  padding: 12px;
+  text-align: center;
+}
